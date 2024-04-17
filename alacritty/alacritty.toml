@@ -1,0 +1,22 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Gruvbox-Dark.toml"
+]
+
+[font]
+size = 23
+
+  [font.normal]
+  family = "BigBlueTerm437NerdFontMono"
+  style = "Regular"
+
+  [font.bold]
+  family = "BigBlueTerm437NerdFontMono"
+  style = "bold"
+
+  [font.italic]
+  family = "BigBlueTerm437NerdFontMono"
+  style = "Italic"
+
+  [font.bold_italic]
+  family = "BigBlueTerm437NerdFontMono"
+  style = "Bold Italic"

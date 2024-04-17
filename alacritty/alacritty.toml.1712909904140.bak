@@ -1,0 +1,22 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Baskerville - ivory dark.toml"
+]
+
+[font]
+size = 23
+
+  [font.normal]
+  family = "JetBrainsMonoNerdFont"
+  style = "Regular"
+
+  [font.bold]
+  family = "JetBrainsMonoNerdFont"
+  style = "Bold"
+
+  [font.italic]
+  family = "JetBrainsMonoNerdFont"
+  style = "Italic"
+
+  [font.bold_italic]
+  family = "JetBrainsMonoNerdFont"
+  style = "Bold Italic"
