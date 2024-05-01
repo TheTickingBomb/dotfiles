@@ -411,7 +411,7 @@ clientbuttons = gears.table.join(
         c:emit_signal("request::activate", "mouse_click", {raise = true})
     end),
     awful.button({ modkey }, 1, function (c)
-        c:emit_signal("request::activate", "mouse_click", {raise = true})
+        c:emit_signal("request::activatie", "mouse_click", {raise = true})
         awful.mouse.client.move(c)
     end),
     awful.button({ modkey }, 3, function (c)
@@ -546,6 +546,6 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
-awful.spawn.with_shell('feh --fullscreen --no-menus --randomize --recursive --bg-fill .config/wallpapers/*')
+awful.spawn.with_shell('feh --fullscreen --no-menus --recursive --bg-fill .config/wallpapers/marigold.jpg')
 awful.spawn.with_shell('picom')
 

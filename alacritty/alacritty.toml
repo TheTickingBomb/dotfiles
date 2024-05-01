@@ -6,17 +6,17 @@ import = [
 size = 23
 
   [font.normal]
-  family = "BigBlueTerm437NerdFontMono"
+  family = "JetBrainsMonoNerdFont"
   style = "Regular"
 
   [font.bold]
-  family = "BigBlueTerm437NerdFontMono"
+  family = "JetBrainsMonoNerdFont"
   style = "bold"
 
   [font.italic]
-  family = "BigBlueTerm437NerdFontMono"
+  family = "JetBrainsMonoNerdFont"
   style = "Italic"
 
   [font.bold_italic]
-  family = "BigBlueTerm437NerdFontMono"
+  family = "JetBrainsMonoNerdFont"
   style = "Bold Italic"
